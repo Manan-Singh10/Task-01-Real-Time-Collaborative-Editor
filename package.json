@@ -22,6 +22,7 @@
     "@tiptap/react": "^2.12.0",
     "@tiptap/starter-kit": "^2.12.0",
     "@y/websocket-server": "^0.1.1",
+    "ably": "^2.9.0",
     "lucide-react": "^0.509.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

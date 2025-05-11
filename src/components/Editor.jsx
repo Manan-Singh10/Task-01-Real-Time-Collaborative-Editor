@@ -32,7 +32,7 @@ function Editor({ name, onSignout }) {
   const { ydoc, provider } = useMemo(() => {
     const ydoc = new Y.Doc();
     const provider = new WebsocketProvider(
-      "ws://localhost:1234",
+      "wss://y-websocket-server-lcra.onrender.com",
       "roomID",
       ydoc
     );
