@@ -1,17 +1,17 @@
 import { EditorContent, useEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
-import * as Y from "yjs";
-
-import MenuBar from "./MenuBar";
-import Collaboration from "@tiptap/extension-collaboration";
-import { WebsocketProvider } from "y-websocket";
-import CollaborationCursor from "@tiptap/extension-collaboration-cursor";
-import { useMemo } from "react";
 import Underline from "@tiptap/extension-underline";
 import Highlight from "@tiptap/extension-highlight";
 import Heading from "@tiptap/extension-heading";
 import BulletList from "@tiptap/extension-bullet-list";
+import CollaborationCursor from "@tiptap/extension-collaboration-cursor";
 import ListItem from "@tiptap/extension-list-item";
+import { WebsocketProvider } from "y-websocket";
+import Collaboration from "@tiptap/extension-collaboration";
+import * as Y from "yjs";
+
+import { useMemo } from "react";
+import MenuBar from "./MenuBar";
 import Signout from "./Signout";
 
 function Editor({ name, onSignout }) {

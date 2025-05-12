@@ -30,6 +30,7 @@ function SignupForm({ setUser }) {
           className="bg-white"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
+          required
         />
 
         <div className="relative flex items-center">
@@ -39,6 +40,7 @@ function SignupForm({ setUser }) {
             className="bg-white"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
 
           {showPassword ? (

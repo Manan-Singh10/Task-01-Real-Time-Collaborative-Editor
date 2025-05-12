@@ -29,6 +29,7 @@ function LoginForm({ user, onLogin }) {
           className="bg-white px-2 py-1 rounded"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
+          required
         />
 
         <div className="relative flex items-center">
@@ -38,6 +39,7 @@ function LoginForm({ user, onLogin }) {
             className="bg-white px-2 py-1 rounded"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
           {showPassword ? (
             <Eye
